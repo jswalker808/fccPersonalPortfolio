@@ -1,0 +1,177 @@
+html, body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+#navbar {
+  background-color: #28845F;
+  color: white;
+}
+
+#logo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.link-image {
+  height: 1rem;
+  opacity: 0.5;
+  width: 1rem;
+}
+
+#welcome-section {
+  background-color: #F1F3F3;
+  /* border: solid; */
+  height: 100%;
+  padding-top: 40vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+#welcome-section-text h1 {
+  font-weight: bold;
+}
+
+#welcome-section-text h2 {
+  font-size: 20px;
+}
+
+.portfolio-button {
+  /* background: linear-gradient(to right, #92e899, #74B87A); */
+  background-color: #F29831;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.section {
+  background-color: #F1F3F3;
+  /* border: solid; */
+  padding-top: 74px;
+}
+
+.section header {
+  /* background: linear-gradient(to right, #8fa0c1, #73819C); */
+  background: linear-gradient(to right, #92e899, #74B87A);
+  color: white;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+.section header h1 {
+  font-weight: bold;
+}
+
+.section header h2 {
+  font-size: 15px;
+}
+
+.section-info {
+  /* border: solid; */
+  margin-top: 25px;
+  padding: 25px;
+  width: 100%;
+}
+
+#about-image {
+  border-radius: 10%;
+  display: block;
+  height: 10rem;
+  margin: auto;
+  width: 7rem;
+}
+
+.section-info p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 25px;
+  text-align: justify;
+}
+
+#projects-container {
+}
+
+.project-tile {
+  background-color: white;
+  border-radius: 0.25rem;
+  margin-bottom: 25px;
+  padding: 5px;
+  width: 100%;
+}
+
+.project-link {
+  color: black;
+  text-decoration: none;
+}
+
+.project-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.image-text {
+  padding: 5px;
+}
+
+.image-text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-text p {
+  margin-top: 0;
+}
+
+.section-info form {
+  /* border: solid; */
+  bo
+  padding: 10px;
+  width: 100%;
+}
+
+.section-info form label {
+  font-weight: bold;
+}
+
+.section-info form input, .section-info form textarea {
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  width: inherit;
+}
+
+.section-info form textarea {
+  height: 6rem;
+}
+
+#form-submit {
+  margin: auto;
+}
+
+#footer {
+  background-color: #28845F;
+  color: rgba(255,255,255,.5);
+  padding: 15px;
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 600px) {
+    #navbar {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+}
